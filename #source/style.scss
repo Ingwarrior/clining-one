@@ -1,0 +1,736 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import "nulstyle.scss";
+
+body {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+//навигационная панель слева
+.conteiner {
+	width: 100px;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 0 20px 20px 0;
+	background-color: rgb(2, 2, 100);
+	display: block;
+	position: fixed;
+	// фото с книжечкой
+	&__photo {
+		width: 90px;
+		height: 85px;
+		margin: 10px 0 0 3px;
+		background-image: url(../images/glavnav.png);
+	}
+	// вторая фото
+	&__photo1 {
+		width: 90px;
+		height: 150px;
+		margin: 380px 0 0 3px;
+		border: 1px solid black;
+		border-radius: 30px;
+		background-image: url(../images/photo3nav.jpg);
+		box-shadow: 0 0 15px white;
+	}
+
+	// навигация
+	&__nav {
+		width: 90px;
+		height: 25px;
+		border: 1px solid white;
+		background-color: white;
+		border-radius: 30px;
+		position: absolute;
+		top: 120px;
+		left: 5px;
+		text-align: center;
+		transform: rotate(-30deg);
+		box-shadow: 0 0 15px white;
+		.nav__text1 {
+			font-family: "PT Sans";
+			font-weight: bold;
+			color: black;
+			font-size: 20px;
+			text-shadow: 0 0 10px white;
+		}
+	}
+	&__navi {
+		width: 90px;
+		height: 25px;
+		border: 1px solid white;
+		border-radius: 30px;
+		position: absolute;
+		top: 220px;
+		left: 5px;
+		text-align: center;
+		background-color: white;
+		transform: rotate(-30deg);
+		box-shadow: 0 0 15px white;
+		.navi__text2 {
+			font-family: "PT Sans";
+			font-weight: bold;
+			color: black;
+			font-size: 20px;
+			text-shadow: 0 0 10px white;
+		}
+	}
+	&__naviga {
+		width: 90px;
+		height: 25px;
+		border: 1px solid white;
+		border-radius: 30px;
+		position: absolute;
+		top: 320px;
+		left: 5px;
+		text-align: center;
+		background-color: white;
+		transform: rotate(-30deg);
+		box-shadow: 0 0 15px white;
+		.naviga__text3 {
+			font-family: "PT Sans";
+			font-weight: bold;
+			color: black;
+			font-size: 20px;
+			text-shadow: 0 0 10px white;
+		}
+	}
+	&__navigat {
+		width: 90px;
+		height: 25px;
+		border: 1px solid white;
+		border-radius: 30px;
+		position: absolute;
+		top: 420px;
+		left: 5px;
+		text-align: center;
+		background-color: white;
+		transform: rotate(-30deg);
+		box-shadow: 0 0 15px white;
+		.navigat__text4 {
+			font-family: "PT Sans";
+			font-weight: bold;
+			color: black;
+			font-size: 20px;
+			text-shadow: 0 0 10px white;
+		}
+	}
+	// связь с нами
+	&__nav1 {
+		background-image: url(../images/Gmail.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 60px;
+		height: 60px;
+		border: 1px solid white;
+		border-radius: 30px;
+		position: absolute;
+		top: 840px;
+		left: 20px;
+		box-shadow: 1px 1px 15px white;
+		.nav1__gmail {
+			width: 100%;
+			height: 100%;
+			border-radius: 30px;
+			display: block;
+		}
+	}
+	&__nav2 {
+		background-image: url(../images/watsap.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 60px;
+		height: 60px;
+		border: 1px solid white;
+		border-radius: 30px;
+		position: absolute;
+		top: 740px;
+		left: 20px;
+		box-shadow: 1px 1px 15px white;
+		.nav2__watsap {
+			width: 100%;
+			height: 100%;
+			border-radius: 30px;
+			display: block;
+		}
+	}
+	&__nav3 {
+		background-image: url(../images/Instagram.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 60px;
+		height: 60px;
+		border: 1px solid white;
+		border-radius: 30px;
+		position: absolute;
+		top: 640px;
+		left: 20px;
+		box-shadow: 1px 1px 15px white;
+		.nav3__instagram {
+			width: 100%;
+			height: 100%;
+			border-radius: 30px;
+			display: block;
+		}
+	}
+}
+// первая шапка сайта
+.block1 {
+	position: absolute;
+	top: 0;
+	left: 100px;
+	width: 1760px;
+	height: 500px;
+	background-image: url(../images/pervoe.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	.block1__logotip {
+		position: absolute;
+		top: 120px;
+		left: 400px;
+		width: 200px;
+		height: 200px;
+		background-image: url(../images/logot.jpg);
+		border-radius: 100px;
+	}
+	.logotip__text3 {
+		position: absolute;
+		left: 180px;
+		top: 10px;
+		font-size: 180px;
+		text-decoration: underline 4px;
+	}
+	.logotip__text4 {
+		position: absolute;
+		left: 30px;
+		top: 10px;
+		font-size: 180px;
+	}
+	.logotip__text5 {
+		display: inline-block;
+		position: absolute;
+		top: 165px;
+		left: 180px;
+		width: 290px;
+		font-size: 19px;
+		font-style: italic;
+	}
+}
+// второй раздел сайта
+.block2 {
+	display: flex;
+	position: relative;
+	top: 500px;
+	left: 100px;
+	width: 1760px;
+	height: 680px;
+	justify-content: space-between;
+	.block2__text1 {
+		font-size: 52px;
+		margin: 10px 0 0 580px;
+		width: 630px;
+		height: 50px;
+	}
+	.block2__text2 {
+		position: absolute;
+		top: 1px;
+		left: 450px;
+		font-size: 30px;
+		margin: 80px 0 0 180px;
+		color: rgba(0, 0, 0, 0.692);
+		width: 500px;
+		text-align: center;
+	}
+	.block2__img1 {
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+		border: 1px solid white;
+		box-shadow: 0 0 10px black;
+		position: absolute;
+		top: 200px;
+		right: 100px;
+		background-image: url(../images/paketYslyg.jpg);
+		text-align: center;
+		.img1__text {
+			font-size: 24px;
+			margin: 200px 0 0 0;
+		}
+	}
+	.block2__img2 {
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+		border: 1px solid white;
+		box-shadow: 0 0 10px black;
+		position: absolute;
+		top: 200px;
+		right: 520px;
+		background-image: url(../images/shestirenka.jpg);
+		text-align: center;
+		.img1__text1 {
+			font-size: 24px;
+			margin: 200px 0 0 0;
+		}
+	}
+	.block2__img3 {
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+		border: 1px solid white;
+		box-shadow: 0 0 10px black;
+		position: absolute;
+		top: 200px;
+		right: 930px;
+		background-image: url(../images/rykopazatie.jpeg);
+		text-align: center;
+		.img1__text2 {
+			font-size: 24px;
+			margin: 200px 0 0 0;
+		}
+	}
+	.block2__img4 {
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+		border: 1px solid white;
+		box-shadow: 0 0 10px black;
+		position: absolute;
+		top: 200px;
+		right: 1350px;
+		background-image: url(../images/razoviyDogovor.jpg);
+		text-align: center;
+		.img1__text3 {
+			font-size: 24px;
+			margin: 200px 0 0 0;
+		}
+	}
+	.block2__img5 {
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+		border: 1px solid white;
+		box-shadow: 0 0 10px black;
+		position: absolute;
+		top: 450px;
+		right: 310px;
+		background-image: url(../images/stroxovka.jpg);
+		text-align: center;
+		.img1__text4 {
+			font-size: 24px;
+			margin: 200px 0 0 0;
+		}
+	}
+	.block2__img6 {
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+		border: 1px solid white;
+		box-shadow: 0 0 10px black;
+		position: absolute;
+		top: 450px;
+		right: 730px;
+		background-image: url(../images/work.jpg);
+		text-align: center;
+		.img1__text5 {
+			font-size: 24px;
+			margin: 200px 0 0 0;
+		}
+	}
+	.block2__img7 {
+		border-radius: 10px;
+		width: 300px;
+		height: 200px;
+		border: 1px solid white;
+		box-shadow: 0 0 10px black;
+		position: absolute;
+		top: 450px;
+		right: 1150px;
+		background-image: url(../images/bistroVsrok.jpg);
+		text-align: center;
+		.img1__text6 {
+			font-size: 24px;
+			margin: 200px 0 0 0;
+		}
+	}
+}
+
+// третий раздел сайта
+.block3 {
+	position: relative;
+	top: 500px;
+	left: 100px;
+	width: 1764px;
+	height: 630px;
+	text-align: center;
+	position: relative;
+	// заголовок
+	&__text1 {
+		font-size: 50px;
+	}
+	// диван
+	&__img1 {
+		background-image: url(../images/pergament.jpg);
+		width: 762px;
+		height: 500px;
+		margin: 50px 0 0 1000px;
+		box-shadow: 0 0 10px black;
+		border-radius: 15px 0 0 15px;
+	}
+	// текст напротив дивана
+	&__text2 {
+		position: absolute;
+		top: 100px;
+		left: 5px;
+		width: 900px;
+		height: 250px;
+		margin: 0 0 0 30px;
+		.text3 {
+			font-size: 24px;
+		}
+		.text4 {
+			margin: 5px 0 0 0;
+			font-size: 22px;
+			text-align: left;
+		}
+		.text5 {
+			margin: 10px 0 0 0;
+			font-size: 24px;
+			text-align: left;
+		}
+	}
+	// линия между текстом напротив дивана
+	&__line1 {
+		margin: 10px 0 0 50px;
+		width: 800px;
+		height: 1px;
+		border: 1px solid black;
+	}
+	// 3 фотографии на против дивана
+	&__img {
+		width: 970px;
+		height: 250px;
+		position: absolute;
+		top: 350px;
+		left: 20px;
+		display: flex;
+		justify-content: space-between;
+		.img__1 {
+			width: 300px;
+			height: 200px;
+			background-image: url(../images/syxayYborka.png);
+			border-radius: 10px;
+			box-shadow: 0 0 10px black;
+			margin: 15px 0 0 0;
+			.img__text1 {
+				font-size: 20px;
+				margin: 200px 0 0 0;
+			}
+		}
+		.img__2 {
+			width: 300px;
+			height: 200px;
+			background-image: url(../images/Nancie-BvlaznayYborka.jpg);
+			border-radius: 10px;
+			box-shadow: 0 0 10px black;
+			margin: 15px 0 0 0;
+			.img__text2 {
+				font-size: 20px;
+				margin: 200px 0 0 0;
+			}
+		}
+		.img__3 {
+			width: 300px;
+			height: 200px;
+			background-image: url(../images/moykaZerkal.jpg);
+			border-radius: 10px;
+			box-shadow: 0 0 10px black;
+			margin: 15px 0 0 0;
+			.img__text3 {
+				font-size: 20px;
+				margin: 200px 0 0 0;
+			}
+		}
+	}
+	// кнопка на фото с диваном
+	.block3__knopka {
+		position: absolute;
+		top: 160px;
+		right: 90px;
+		width: 200px;
+		height: 50px;
+		border: 1px solid wheat;
+		border-radius: 15px;
+		padding: 10px 0 0 0;
+		.knopka1 {
+			color: black;
+			font-size: 24px;
+			text-decoration: underline;
+		}
+	}
+	.block3__knopka:hover {
+		box-shadow: 0 0 10px black;
+		position: absolute;
+		top: 160px;
+		right: 90px;
+		background-color: rgba(255, 235, 205, 0.431);
+	}
+}
+
+// 4 раздел  сайта
+.block4 {
+	display: flex;
+	position: absolute;
+	top: 1809px;
+	right: 0px;
+	display: block;
+	width: 1764px;
+	height: 700px;
+	padding: 0 0 0 50px;
+	background-image: url(../images/4razdelCite.png);
+	// текст прайс лист
+	&__text {
+		font-size: 44px;
+		margin: 10px 0 0 720px;
+	}
+	// первый стобец
+	&__table {
+		width: 300px;
+		height: 400px;
+		border-radius: 20px;
+		background-color: rgba(127, 255, 212, 0.589);
+		margin: 10px 0 0 20px;
+		padding: 10px 0 0 0;
+		box-shadow: 0 0 10px white;
+		// генеральная уборка текст
+		.table__text {
+			font-size: 21px;
+			text-align: center;
+			margin: 10px 0 0 0;
+			text-decoration: underline;
+			color: black;
+			font-weight: 600;
+		}
+		// цены первого столбца
+		.table__ceni {
+			width: 100%;
+			height: 20px;
+			text-decoration: underline;
+			font-size: 26px;
+			text-align: center;
+			margin: 25px 0 0 0;
+		}
+	}
+	// второй стобец
+	&__table1 {
+		width: 300px;
+		height: 400px;
+		border-radius: 20px;
+		background-color: rgba(127, 255, 212, 0.589);
+		margin: -400px 0 0 350px;
+		padding: 10px 0 0 0;
+		box-shadow: 0 0 10px white;
+		.table1__text1 {
+			font-size: 21px;
+			text-align: center;
+			margin: 10px 0 0 0;
+			text-decoration: underline;
+			color: black;
+			font-weight: 600;
+		}
+		.table1__ceni1 {
+			width: 100%;
+			height: 20px;
+			text-decoration: underline;
+			font-size: 26px;
+			text-align: center;
+			margin: 25px 0 0 0;
+		}
+	}
+	// третий стобец
+	&__table2 {
+		width: 300px;
+		height: 400px;
+		border-radius: 20px;
+		background-color: rgba(127, 255, 212, 0.589);
+		margin: -400px 0 0 680px;
+		padding: 10px 0 0 0;
+		box-shadow: 0 0 10px white;
+		.table2__text2 {
+			font-size: 21px;
+			text-align: center;
+			margin: 10px 0 0 0;
+			text-decoration: underline;
+			color: black;
+			font-weight: 600;
+		}
+		.table2__ceni2 {
+			width: 100%;
+			height: 20px;
+			text-decoration: underline;
+			font-size: 26px;
+			text-align: center;
+			margin: 25px 0 0 0;
+		}
+	}
+	// четвертый стобец
+	&__table3 {
+		width: 300px;
+		height: 400px;
+		border-radius: 20px;
+		background-color: rgba(127, 255, 212, 0.589);
+		margin: -400px 0 0 1010px;
+		padding: 10px 0 0 0;
+		box-shadow: 0 0 10px white;
+		.table3__text3 {
+			font-size: 21px;
+			text-align: center;
+			margin: 10px 0 0 0;
+			text-decoration: underline;
+			color: black;
+			font-weight: 600;
+		}
+		.table3__ceni3 {
+			width: 100%;
+			height: 20px;
+			text-decoration: underline;
+			font-size: 26px;
+			text-align: center;
+			margin: 25px 0 0 0;
+		}
+	}
+	// пятый стобец
+	&__table4 {
+		width: 300px;
+		height: 400px;
+		border-radius: 20px;
+		background-color: rgba(127, 255, 212, 0.589);
+		margin: -400px 0 0 1340px;
+		padding: 10px 0 0 0;
+		box-shadow: 0 0 10px white;
+		.table__text4 {
+			font-size: 21px;
+			text-align: center;
+			margin: 10px 0 0 0;
+			text-decoration: underline;
+			color: black;
+			font-weight: 600;
+		}
+		.table4__ceni4 {
+			width: 100%;
+			height: 20px;
+			text-decoration: underline;
+			font-size: 26px;
+			text-align: center;
+			margin: 45px 0 0 0;
+		}
+	}
+	// шестой стобец информация
+	&__text2 {
+		width: 960px;
+		height: 220px;
+		margin: 10px 0 0 350px;
+		border-radius: 20px;
+		box-shadow: 0 0 10px white;
+		background-color: rgba(127, 255, 212, 0.589);
+		.text2__1 {
+			font-size: 32px;
+			text-align: center;
+		}
+		.text2__2 {
+			font-size: 24px;
+			text-align: center;
+			color: rgba(0, 0, 0, 0.87);
+		}
+		.text2__3 {
+			margin: 3px 0 0 0;
+			font-size: 24px;
+			text-align: center;
+		}
+		.text2__3::before {
+			content: "|";
+		}
+		.text2__3::after {
+			content: "|";
+		}
+		.text2__3:hover {
+			text-shadow: 0 0 5px white;
+			color: white;
+		}
+	}
+}
+
+// 5 раздел сайта
+.block5 {
+	display: flex;
+	position: absolute;
+	top: 2509px;
+	left: 100px;
+	width: 1764px;
+	height: 600px;
+	border: 1px solid black;
+	// фото планшет
+	&__img1 {
+		margin: 0 0 0 700px;
+	}
+	// видео в планшете
+	&__video {
+		position: absolute;
+		top: 148px;
+		left: 934px;
+		width: 546px;
+		height: 320px;
+		z-index: 1;
+		background-color: black;
+		.video__vid {
+			background-color: black;
+			box-shadow: 10px 0 10px black;
+			border-radius: 10px;
+		}
+	}
+	// текст в планшете
+	&__text {
+		display: flex;
+		position: absolute;
+		left: 1000px;
+		top: 250px;
+		width: 400px;
+		height: 100px;
+		justify-content: center;
+		padding: 25px 0 0 0;
+		z-index: 2;
+		.text__1 {
+			font-size: 44px;
+			color: rgba(255, 255, 255, 0.534);
+			text-shadow: 0 0 10px white;
+			text-decoration: underline 2px;
+		}
+	}
+	// блок с логотипами компаний
+	&__text1 {
+		width: 750px;
+		height: 400px;
+		border: 1px solid black;
+		display: flex;
+		position: absolute;
+		top: 110px;
+		left: 20px;
+		// логотип 1 москва сити
+		.text1__img1 {
+			width: 200px;
+			height: 200px;
+			border: 1px solid black;
+			background-image: url(../images/logotip.jpg);
+			border-radius: 100px;
+		}
+		// логотип 2 простые решения для дома
+		.text1__img2 {
+			width: 200px;
+			height: 200px;
+			border: 1px solid black;
+			background-image: url(../images/logotip2.jpg);
+			border-radius: 100px;
+		}
+	}
+}
