@@ -895,7 +895,9 @@ body {
   width: 250px;
   height: 300px;
   background-color: white;
-  background-image: url(../images/director.jpg);
+  background-image: url(../images/director2.jpg);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 .block5__text3 .text3__text1 {
   text-align: center;
@@ -919,6 +921,8 @@ body {
   color: #4c4cc2;
   -webkit-transform: rotate(-20deg);
           transform: rotate(-20deg);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 .block5__text3:hover {
   -webkit-box-shadow: 0 0 10px white;
